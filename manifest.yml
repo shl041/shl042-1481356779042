@@ -1,0 +1,12 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: shl042
+  host: shl042
+  disk_quota: 1024M
+  services:
+  - Conversation-bw
+  - Speech to Text-h7
+  - Text to Speech-71
